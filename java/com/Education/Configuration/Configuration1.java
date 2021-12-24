@@ -54,7 +54,7 @@ public class Configuration1  implements WebMvcConfigurer{
 		JavaMailSenderImpl impl = new JavaMailSenderImpl();
 		impl.setHost("smtp.gmail.com");
 		impl.setUsername("arvinmishraji@gmail.com");
-		impl.setPassword("Aiharishanker@1234");
+		impl.setPassword("avin@1234");
 		impl.setPort(587);
 
 		Properties properties = new Properties();
